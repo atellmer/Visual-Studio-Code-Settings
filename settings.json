@@ -18,7 +18,7 @@
     
     "html.format.endWithNewline": true,
 	
-	"beautify.onSave": true,
+	"beautify.onSave": false,
 	
 	"beautify.JSfiles": [
 		"js",
@@ -28,6 +28,10 @@
 		"ts",
 		"jsx"
 	],
+
+	"files.autoSave": "off",
 	
-	"files.autoSave": "afterDelay"
+	"path-intellisense.extensionOnImport": true,
+	
+	"editor.wrappingColumn": 0
 }
