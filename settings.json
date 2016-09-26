@@ -1,29 +1,25 @@
 {
-    "editor.fontFamily": "Source Code Pro",
-    
-    "editor.insertSpaces": false,
-
+	"editor.fontFamily": "Source Code Pro, Consolas, 'Courier New', monospace",
+	"editor.insertSpaces": false,
 	"editor.tabSize": 2,
-    
-    "files.exclude": {
+	"editor.renderWhitespace": true,
+	"editor.detectIndentation": false,
+	"files.exclude": {
 		"**/.git": true,
 		"**/.DS_Store": true,
-        "**/node_modules/" : true,
-		"**/*.js": { "when": "$(basename).ts"},
+		"**/node_modules/": true,
+		"**/*.js": {
+			"when": "$(basename).ts"
+		},
 		"**/*.js.map": true
 	},
-    
-    "files.watcherExclude": {
+	"files.watcherExclude": {
 		"**/.git/objects/**": true,
-        "**/node_modules/": true
+		"**/node_modules/": true
 	},
-    
-    "html.format.indentInnerHtml": true,
-    
-    "html.format.endWithNewline": true,
-	
+	"html.format.indentInnerHtml": true,
+	"html.format.endWithNewline": true,
 	"beautify.onSave": false,
-	
 	"beautify.JSfiles": [
 		"js",
 		"json",
@@ -32,18 +28,12 @@
 		"ts",
 		"jsx"
 	],
-
 	"files.autoSave": "off",
-	
 	"path-intellisense.extensionOnImport": true,
-	
 	"editor.wrappingColumn": 0,
-
 	"languageStylus.useSeparator": false,
-
 	"css.validate": false,
-
-    "emmet.syntaxProfiles": {
-        "javascript": "html"
-    }
+	"emmet.syntaxProfiles": {
+		"javascript": "html"
+	}
 }
